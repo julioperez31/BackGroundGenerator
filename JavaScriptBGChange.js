@@ -3,7 +3,7 @@ var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 var button1=document.getElementById("g1");
-
+css.textContent="LINEAR-GRADIENT(TO RIGHT, RGB(255, 0, 0), RGB(255, 255, 0));";
 
 css.textContent.onstart = body.style.background+";"
 function colors(){
